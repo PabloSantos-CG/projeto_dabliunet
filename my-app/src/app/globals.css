@@ -6,3 +6,18 @@ html,
 body {
   height: 100%;
 }
+
+#Home {
+  background: url("/bg-project.png") center no-repeat;
+  background-size: cover;
+}
+
+#About {
+  background: url("/bg-about.png") center no-repeat;
+  background-size: cover;
+}
+
+#OurPlans {
+  background: url("/bg-plans.png") center no-repeat;
+  background-size: cover;
+}
