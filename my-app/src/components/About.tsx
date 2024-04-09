@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section id="About">
-      <div className="h-screen container m-auto flex gap-x-4">
+      <div className="h-[600px] container m-auto flex gap-x-4">
         <div className="flex-1 flex flex-col justify-center items-center">
           <p className="flex flex-col">
             <span className="text-gray-600 font-bold text-xl">DESCRUBA A</span>
