@@ -3,25 +3,25 @@ export default function About() {
     <section id="About">
       <div className="h-[600px] container m-auto flex gap-x-4">
         <div className="flex-1 flex flex-col justify-center items-center">
-          <p className="flex flex-col">
-            <span className="text-gray-600 font-bold text-xl">DESCRUBA A</span>
-            <span className="text-blue-700 font-bold text-xl">
+          <p className="flex flex-col text-3xl">
+            <span className="text-gray-600 font-bold">DESCRUBA A</span>
+            <span className="text-blue-700 font-bold">
               EXCÊLENCIA EM INTERNET
             </span>
-            <span className="text-gray-600 font-bold text-xl">
+            <span className="text-gray-600 font-bold">
               SUA MELHOR ESCOLHA
             </span>
-            <span className="text-blue-700 font-bold text-xl">
+            <span className="text-blue-700 font-bold">
               PARA CONEXÃO CONFIÁVEL
             </span>
-            <span className="text-gray-600 font-bold text-xl">
+            <span className="text-gray-600 font-bold">
               RÁPIDA E ESTÁVEL.
             </span>
           </p>
         </div>
 
         <div className="flex-1 flex flex-col justify-center">
-          <h2 className="text-2xl font-semibold mb-6">Sobre Nós</h2>
+          <h2 className="text-3xl font-semibold mb-6">Sobre Nós</h2>
           <p className="text-sm text-gray-600 max-w-md">
             A VirtualLink é um provedor de internet com mais de 17 anos de
             experiência no mercado, oferecendo serviços de alta qualidade aos

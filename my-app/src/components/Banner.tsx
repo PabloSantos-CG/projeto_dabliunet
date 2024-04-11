@@ -1,22 +1,31 @@
-import { Poppins } from "next/font/google";
+import { FaWifi } from "react-icons/fa";
+import { Space_Grotesk } from "next/font/google";
 
-const poppins = Poppins({ subsets: ["latin"], weight: ["500", "700"] });
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["500", "700"],
+});
 
 export default function Banner() {
   return (
     <section id="Home" className="h-[600px]">
-      <div 
+      <div
         className="
           h-full container 
           flex flex-col justify-center 
           gap-y-4 m-auto px-4 text-white
         "
       >
-        <h1 className={`${poppins.className} font-bold text-3xl`}>
+        <h1
+          className={`${spaceGrotesk.className} flex items-center gap-x-3 font-bold text-3xl capitalize`}
+        >
           Aprimore sua experiência de conexão
+          <span>
+            <FaWifi />
+          </span>
         </h1>
         <p
-          className={`${poppins.className} max-w-xl font-medium text-xl text-gray-300`}
+          className={`${spaceGrotesk.className} max-w-xl font-medium text-xl text-gray-300`}
         >
           Velocidade, estabilidade e perfeição para trabalho remoto, jogos
           online e streaming de vídeos.
@@ -29,7 +38,7 @@ export default function Banner() {
             font-semibold rounded w-max
             duration-500
           "
-          >
+        >
           Entrar em contato
         </a>
       </div>
