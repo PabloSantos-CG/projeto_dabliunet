@@ -1,17 +1,20 @@
-interface Props {}
+interface Props {
+  title: string;
+  value: string;
+}
 
-function Card({}: Props) {
+function Card({ title, value }: Props) {
   return (
     <div
       className="
         flex flex-col justify-between text-center
-        w-[250px] h-[340px] rounded-lg
-       bg-white drop-shadow-[0_0_15px_#00000026]
+        h-[340px] rounded-lg
+       bg-white
        p-6
       "
     >
       <strong className="text-4xl">
-        50 <span className="text-2xl text-blue-800">MEGA</span>
+        {title} <span className="text-2xl text-blue-800">MEGA</span>
       </strong>
 
       <ul className="flex flex-col gap-y-2 text-gray-500 text-sm">
@@ -20,7 +23,7 @@ function Card({}: Props) {
         <li>Wifi-Ultra</li>
       </ul>
 
-      <strong className="text-gray-500 text-lg">R$ 99,99 / Mês</strong>
+      <strong className="text-gray-500 text-lg">R$ {value} / Mês</strong>
 
       <button
         className="
