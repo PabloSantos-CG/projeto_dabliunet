@@ -7,6 +7,12 @@ body {
   height: 100%;
 }
 
+@layer base {
+  .input {
+    @apply h-10 pl-2 rounded-lg bg-transparent border border-gray-400 text-gray-500 outline-none;
+  }
+}
+
 #Home {
   background: url("/bg-project.png") center no-repeat;
   background-size: cover;
