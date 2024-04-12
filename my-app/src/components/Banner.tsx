@@ -16,7 +16,7 @@ export default function Banner() {
         "
       >
         <h1
-          className={`${spaceGrotesk.className} flex items-center gap-x-3 font-bold text-3xl capitalize`}
+          className={`${spaceGrotesk.className} font-bold text-3xl capitalize`}
         >
           Aprimore sua experiência de conexão
         </h1>
