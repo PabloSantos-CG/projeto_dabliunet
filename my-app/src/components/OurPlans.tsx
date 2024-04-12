@@ -1,5 +1,5 @@
-import Card from "./slide-components/Card";
-import PlansSlide from "./slide-components/PlansSlide";
+import Card from "./slide/Card";
+import PlansSlide from "./slide/PlansSlide";
 
 export default function OurPlans() {
   return(

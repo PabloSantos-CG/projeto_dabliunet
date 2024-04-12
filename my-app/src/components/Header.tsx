@@ -1,4 +1,4 @@
-import Nav from "./header-components/Nav";
+import Nav from "./header/Nav";
 
 export default function Header() {
   return (
