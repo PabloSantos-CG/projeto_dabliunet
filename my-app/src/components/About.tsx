@@ -23,7 +23,7 @@ export default function About() {
         <div className="flex-1 flex flex-col justify-center">
           <h2 className="text-3xl font-semibold mb-6">Sobre Nós</h2>
           <p className="text-sm text-gray-600 max-w-md">
-            A VirtualLink é um provedor de internet com mais de 17 anos de
+            A <strong>VirtualLink</strong> é um provedor de internet com mais de 17 anos de
             experiência no mercado, oferecendo serviços de alta qualidade aos
             nossos clientes.
             <br />
