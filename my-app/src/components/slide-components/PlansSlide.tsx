@@ -30,9 +30,10 @@ export default function PlansSlide() {
             spaceBetween: 40,
           },
         }}
-        autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 7000 }}
         pagination={{ clickable: true }}
         modules={[Pagination, Autoplay]}
+        className="cursor-grab"
       >
         {ourPlans.map((plan) => (
           <SwiperSlide key={plan.id}>
