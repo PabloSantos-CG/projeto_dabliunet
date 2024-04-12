@@ -1,4 +1,3 @@
-import { FaWifi } from "react-icons/fa";
 import { Space_Grotesk } from "next/font/google";
 
 const spaceGrotesk = Space_Grotesk({
@@ -20,9 +19,6 @@ export default function Banner() {
           className={`${spaceGrotesk.className} flex items-center gap-x-3 font-bold text-3xl capitalize`}
         >
           Aprimore sua experiência de conexão
-          <span>
-            <FaWifi />
-          </span>
         </h1>
         <p
           className={`${spaceGrotesk.className} max-w-xl font-medium text-xl text-gray-300`}
