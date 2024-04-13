@@ -5,7 +5,7 @@ export default function Contact() {
     <section id="Contact">
       <div className="container m-auto px-4 py-28">
 
-        <h2 className="text-3xl font-semibold mb-14 text-center">Sobre Nós</h2>
+        <h2 className="text-3xl font-semibold mb-14 text-center">Contato</h2>
 
         <div className="flex gap-x-4 xl:gap-x-10">
           <div className="flex-1">
