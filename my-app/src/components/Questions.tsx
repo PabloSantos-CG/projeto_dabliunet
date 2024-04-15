@@ -20,17 +20,20 @@ export default function Questions() {
   };
 
   return (
-    <section id="Questions">
-      <div className="container m-auto px-4 text-black">
-        {data.map((quest) => (
-          <Accordion
-            key={quest.id}
-            open={quest.open}
-            toggle={() => toggleOpen(quest.id)}
-            title={quest.title}
-            desc={quest.description}
-          />
-        ))}
+    <section id="Questions" className="bg-gray-100">
+      <div className="container m-auto px-4 py-20 text-black">
+        <h2 className=" font-semibold mb-6">Dúvidas Frequentes</h2>
+        <div>
+          {data.map((quest) => (
+            <Accordion
+              key={quest.id}
+              open={quest.open}
+              toggle={() => toggleOpen(quest.id)}
+              title={quest.title}
+              desc={quest.description}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
