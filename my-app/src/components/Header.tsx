@@ -28,7 +28,7 @@ export default function Header() {
       <div className="container flex justify-between m-auto px-4 py-5">
         <div>
           <a href="/" className="text-xl font-bold text-white">
-            Virtual<span className="text-lime-400">Link</span>
+            Virtual<span className="text-[#0CF25D]">Link</span>
           </a>
         </div>
 
