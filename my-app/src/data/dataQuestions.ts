@@ -11,7 +11,7 @@ export const dataQuestions = [
     id: nanoid(5),
     title: "Quais métodos de pagamento são aceitos?",
     description:
-      "Aceitamos os seguintes métodos de pagamento: cartão de crédito, PIX e boleto bancário.",
+      "Aceitamos os seguintes métodos de pagamento: cartão de crédito, pix e boleto bancário.",
     open: false,
   },
   {
@@ -25,7 +25,7 @@ export const dataQuestions = [
     id: nanoid(5),
     title: "Como contatar o suporte técnico?",
     description:
-      "Você pode entrar em contato através do nosso número de telefone '(71) 90000-0000' ou através do nosso email 'exemplo@exem.com'.",
+      "Você pode entrar em contato através do nosso número de telefone \"(71) 90000-0000\" ou através do nosso email \"exemplo@exem.com\".",
     open: false,
   },
 ];
