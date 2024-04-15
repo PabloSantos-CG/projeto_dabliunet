@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <header
       className={`w-full ${
-        header ? "fixed bg-[#082887]" : "bg-[#02091D]"
+        header ? "fixed bg-[#082887]" : "sticky bg-[#02091D]"
       } top-0 z-50 ease-linear duration-500`}
     >
       <div className="container flex justify-between m-auto px-4 py-5">
