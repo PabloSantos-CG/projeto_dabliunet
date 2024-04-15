@@ -9,13 +9,13 @@ interface Props {
 
 export default function Accordion({ open, toggle, title, desc }: Props) {
   return (
-    <div>
+    <div className="p-4 bg-white border">
       <div className="flex justify-between" onClick={toggle}>
-        <p>{title}</p>
+        <p className="font-medium">{title}</p>
         <button>{open ? <AiOutlineMinus /> : <AiOutlinePlus />}</button>
       </div>
 
-      {open && <div>{desc}</div>}
+      {open && <div className="text-sm p-3 leading-6">{desc}</div>}
     </div>
   );
 }
