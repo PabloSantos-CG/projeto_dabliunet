@@ -3,7 +3,7 @@
 import { dataQuestions } from "@/data/dataQuestions";
 import Accordion from "./questions/Accordion";
 import { useState } from "react";
-import { DataQuestionsType } from "@/types/DataQuestions";
+import { DataQuestionsType } from "@/types/DataQuestionsType";
 
 export default function Questions() {
   const [data, setData] = useState<DataQuestionsType[]>(dataQuestions);
