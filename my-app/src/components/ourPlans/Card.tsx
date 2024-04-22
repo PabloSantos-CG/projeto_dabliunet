@@ -9,7 +9,7 @@ function Card({ title, value }: Props) {
       className="
         flex flex-col justify-between text-center
         h-[340px] rounded-lg
-       bg-white
+       bg-white hover:bg-gray-50
        p-6
       "
     >
