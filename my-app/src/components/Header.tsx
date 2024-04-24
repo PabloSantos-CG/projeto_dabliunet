@@ -6,7 +6,7 @@ import { IoClose, IoMenu } from "react-icons/io5";
 
 export default function Header() {
   const [header, setHeader] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const toggleMenu = () => {
     setIsOpen((value) => !value);
@@ -14,8 +14,8 @@ export default function Header() {
   };
 
   const handleResize = () => {
-    if (window.innerWidth < 768 && isOpen) setIsOpen(false);
-    if (window.innerWidth > 768 && !isOpen) setIsOpen(true);
+    // if (window.innerWidth < 768 && isOpen) setIsOpen(false);
+    // if (window.innerWidth > 768 && !isOpen) setIsOpen(true);
   };
 
   const handleHeader = () => {
@@ -28,7 +28,7 @@ export default function Header() {
 
   useEffect(() => {
     window.addEventListener("scroll", handleHeader);
-    if (window.innerWidth > 768 && !isOpen) setIsOpen(true);
+    // if (window.innerWidth > 768 && !isOpen) setIsOpen(true);
   }, []);
 
   useEffect(() => {
