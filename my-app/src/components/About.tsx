@@ -1,9 +1,9 @@
 export default function About() {
   return (
     <section id="About">
-      <div className="h-[600px] container m-auto flex gap-x-4">
+      <div className="h-[600px] container m-auto md:flex gap-x-4">
         <div className="flex-1 flex flex-col justify-center items-center">
-          <p className="flex flex-col text-3xl">
+          <p className="flex flex-col max-md:items-center text-3xl">
             <span className="text-gray-600 font-bold">DESCRUBA A</span>
             <span className="text-blue-700 font-bold">
               EXCÊLENCIA EM INTERNET
@@ -20,7 +20,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="flex-1 flex flex-col justify-center">
+        <div className="flex-1 flex flex-col justify-center max-md:items-center max-md:text-center">
           <h2 className="text-3xl font-semibold mb-6">Sobre Nós</h2>
           <p className="text-sm text-gray-600 max-w-md">
             A <strong>VirtualLink</strong> é um provedor de internet com mais de 17 anos de
