@@ -23,7 +23,7 @@ export const dataMenu = [
   },
   {
     id: nanoid(5),
-    ancor: "#Doubts",
+    ancor: "#Questions",
     title: "Dúvidas",
   },
 ];
