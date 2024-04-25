@@ -7,7 +7,7 @@ export default function Contact() {
 
         <h2 className="text-3xl font-semibold mb-14 text-center">Contato</h2>
 
-        <div className="flex gap-x-4 xl:gap-x-10">
+        <div className="flex max-md:flex-col max-md:gap-y-14 md:gap-x-4  xl:gap-x-10">
           <div className="flex-1">
             <Form />
           </div>
