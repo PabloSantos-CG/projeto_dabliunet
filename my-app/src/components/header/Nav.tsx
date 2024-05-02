@@ -11,9 +11,9 @@ export default function Nav({ toggleOpen }: Props) {
   return (
     <nav>
       <ul
-        className={`text-white font-medium ${
+        className={`w-full text-white font-medium ${
           !toggleOpen ? "hidden" : "flex"
-        } gap-x-4 ${openSans.className}`}
+        } max-md:flex-col max-md:gap-y-4 md:gap-x-6 items-center max-md:pt-2 ${openSans.className}`}
       >
         {dataMenu.map((menu) => (
           <li
