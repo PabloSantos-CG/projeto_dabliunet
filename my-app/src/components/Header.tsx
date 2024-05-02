@@ -6,7 +6,7 @@ import { IoClose, IoMenu } from "react-icons/io5";
 
 export default function Header() {
   const [header, setHeader] = useState(false);
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen((value) => !value);
@@ -14,8 +14,8 @@ export default function Header() {
   };
 
   const handleResize = () => {
-    // if (window.innerWidth < 768 && isOpen) setIsOpen(false);
-    // if (window.innerWidth > 768 && !isOpen) setIsOpen(true);
+    if (window.innerWidth < 768 && isOpen) setIsOpen(false);
+    if (window.innerWidth > 768 && !isOpen) setIsOpen(true);
   };
 
   const handleHeader = () => {
@@ -28,7 +28,7 @@ export default function Header() {
 
   useEffect(() => {
     window.addEventListener("scroll", handleHeader);
-    // if (window.innerWidth > 768 && !isOpen) setIsOpen(true);
+    if (window.innerWidth > 768 && !isOpen) setIsOpen(true);
   }, []);
 
   useEffect(() => {
@@ -44,7 +44,7 @@ export default function Header() {
         header ? "fixed bg-[#082887]" : "sticky bg-[#02091D]"
       } top-0 z-50 ease-linear duration-500`}
     >
-      <div className="container flex justify-between m-auto px-4 py-5">
+      <div className="container max-md:flex-col flex justify-between m-auto px-4 py-5 relative">
         <div>
           <a href="/" className="text-xl font-bold text-white">
             Virtual<span className="text-[#0CF25D]">Link</span>
@@ -53,7 +53,7 @@ export default function Header() {
 
         <button
           onClick={toggleMenu}
-          className="md:hidden absolute right-2 sm:top-5  max-sm:top-3 text-white"
+          className="md:hidden absolute right-2.5 sm:top-4  max-sm:top-3 text-white hover:text-lime-400 duration-500"
         >
           <span>{isOpen ? <IoClose size={36} /> : <IoMenu size={36} />}</span>
         </button>
