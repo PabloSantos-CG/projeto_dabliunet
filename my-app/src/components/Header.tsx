@@ -27,6 +27,7 @@ export default function Header() {
   };
 
   useEffect(() => {
+    handleHeader();
     window.addEventListener("scroll", handleHeader);
     if (window.innerWidth > 768 && !isOpen) setIsOpen(true);
   }, []);
@@ -41,8 +42,8 @@ export default function Header() {
   return (
     <header
       className={`w-full ${
-        header ? "fixed bg-[#082887]" : "sticky bg-[#02091D]"
-      } top-0 z-50 ease-linear duration-500`}
+        header ? "bg-[#082887]" : "bg-transparent backdrop-blur-lg"
+      } fixed top-0 z-50 ease-linear duration-500`}
     >
       <div className="container max-md:flex-col flex justify-between m-auto px-4 py-5 relative">
         <div>
@@ -54,6 +55,7 @@ export default function Header() {
         <button
           onClick={toggleMenu}
           className="md:hidden absolute right-2.5 sm:top-4  max-sm:top-3 text-white hover:text-lime-400 duration-500"
+          aria-label="Menu Hamburguer"
         >
           <span>{isOpen ? <IoClose size={36} /> : <IoMenu size={36} />}</span>
         </button>

@@ -78,8 +78,6 @@ export default function Form() {
             </p>
           )}
         </div>
-        {/* <div className="flex justify-between gap-x-4 sm:gap-x-8">
-        </div> */}
 
         <div>
           <textarea
@@ -87,7 +85,7 @@ export default function Form() {
             placeholder="Faça uma breve descrição..."
             className={`
               ${errors.message ? "border-red-500" : "focus:border-blue-500"}
-              input w-full h-[180px] pr-2 pt-2 pb-2 capitalize resize-none text-gray-200
+              input w-full h-[180px] pr-2 pt-2 pb-2 capitalize resize-none
             `}
           />
           {errors.message && (

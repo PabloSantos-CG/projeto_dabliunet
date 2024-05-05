@@ -7,7 +7,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export default function Banner() {
   return (
-    <section id="Home" className="h-[600px]">
+    <section id="Home" className="pt-72 pb-48">
       <div
         className="
           h-full container 
@@ -31,7 +31,7 @@ export default function Banner() {
           href="#Contact"
           className="
             px-4 py-2 mt-4 
-            text-black bg-white hover:bg-gray-200
+            text-black bg-white hover:bg-gray-300
             font-semibold rounded w-max
             duration-500
           "

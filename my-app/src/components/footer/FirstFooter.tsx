@@ -21,13 +21,19 @@ export default function FirstFooter() {
 
         <ul className="flex max-md:justify-center gap-x-4">
           <li className="p-2 rounded-full bg-white w-max hover:text-blue-500 cursor-pointer">
-            <FaXTwitter />
+            <a href="https://twitter.com/" aria-label="Me acompanhe no twitter">
+              <FaXTwitter />
+            </a>
           </li>
           <li className="p-2 rounded-full bg-white w-max hover:text-blue-500 cursor-pointer">
-            <FaFacebookF />
+            <a href="https://www.facebook.com/" aria-label="Me acompanhe no facebook">
+              <FaFacebookF />
+            </a>
           </li>
           <li className="p-2 rounded-full bg-white w-max hover:text-red-500 cursor-pointer">
-            <FaInstagram />
+            <a href="https://www.instagram.com/" aria-label="Me acompanhe no instagram">
+              <FaInstagram />
+            </a>
           </li>
         </ul>
       </div>

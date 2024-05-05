@@ -2,28 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  height: 100%;
-}
-
-@layer base {
-  .input {
-    @apply h-10 pl-2 rounded-lg bg-transparent border border-gray-400 text-gray-500 outline-none;
-  }
-}
-
-#Home {
-  background: url("/bg-project.png") center no-repeat;
-  background-size: cover;
-}
-
 @media (min-width: 768px) {
   #About {
-    background: url("/bg-about.png") center no-repeat;
+    background: url("/bg-about.webp") center no-repeat;
     background-size: cover;
   }
 }
+
 @media (max-width: 767px) {
   #About {
     background: url("/bg-about-max-md.png") center no-repeat;
@@ -31,7 +16,23 @@ body {
   }
 }
 
+html,
+body {
+  height: 100%;
+}  
+
+@layer base {
+  .input {
+    @apply h-10 pl-2 rounded-lg bg-transparent border border-gray-400 text-gray-500 outline-none;
+  }  
+}  
+
+#Home {
+  background: url("/bg-project.webp") top no-repeat;
+  background-size: cover;
+}  
+
 #OurPlans {
-  background: url("/bg-plans.png") center right no-repeat;
+  background: url("/bg-plans.webp") center right no-repeat;
   background-size: cover;
 }

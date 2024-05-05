@@ -18,6 +18,7 @@ export default function Contact() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="w-full max-md:h-[372px] h-full border border-black rounded-sm"
+              aria-label="Mapa interativo da cidade"
             ></iframe>
           </div>
         </div>
