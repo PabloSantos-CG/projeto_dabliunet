@@ -1,8 +1,8 @@
 export default function Label() {
   return (
     <section className="bg-black text-white py-14">
-      <div className="container flex flex-col gap-y-5 m-auto px-4">
-        <h2 className="uppercase text-3xl font-semibold">
+      <div className="container flex flex-col max-md:items-center gap-y-5 m-auto px-4 max-md:text-center">
+        <h2 className="uppercase max-md:text-2xl text-3xl font-semibold">
           Descubra o plano perfeito
           <br />
           para suas necessidades!

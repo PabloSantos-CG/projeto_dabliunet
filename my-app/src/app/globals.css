@@ -18,9 +18,17 @@ body {
   background-size: cover;
 }
 
-#About {
-  background: url("/bg-about.png") center no-repeat;
-  background-size: cover;
+@media (min-width: 768px) {
+  #About {
+    background: url("/bg-about.png") center no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 767px) {
+  #About {
+    background: url("/bg-about-max-md.png") center no-repeat;
+    background-size: cover;
+  }
 }
 
 #OurPlans {

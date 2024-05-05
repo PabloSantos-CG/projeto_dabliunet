@@ -13,8 +13,8 @@ function Card({ title, value }: Props) {
        p-6
       "
     >
-      <strong className="text-4xl">
-        {title} <span className="text-2xl text-blue-800">MEGA</span>
+      <strong className="max-md:text-3xl text-4xl">
+        {title} <span className=" text-2xl text-blue-800">MEGA</span>
       </strong>
 
       <ul className="flex flex-col gap-y-2 text-gray-500 text-sm">

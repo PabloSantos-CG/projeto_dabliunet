@@ -15,7 +15,7 @@ export default function PlansSlide() {
         breakpoints={{
           320: {
             slidesPerView: 1,
-            spaceBetween: 15,
+            spaceBetween: 55,
           },
           600: {
             slidesPerView: 2,

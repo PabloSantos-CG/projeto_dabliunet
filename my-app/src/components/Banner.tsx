@@ -11,17 +11,18 @@ export default function Banner() {
       <div
         className="
           h-full container 
-          flex flex-col justify-center 
-          gap-y-4 m-auto px-4 text-white
+          flex flex-col justify-center max-md:items-center
+          gap-y-4 m-auto px-4
+          text-white max-md:text-center
         "
       >
         <h1
-          className={`${spaceGrotesk.className} font-bold text-3xl capitalize`}
+          className={`${spaceGrotesk.className} font-bold max-md:text-2xl text-3xl capitalize`}
         >
           Aprimore sua experiência de conexão
         </h1>
         <p
-          className={`${spaceGrotesk.className} max-w-xl font-medium text-xl text-gray-300`}
+          className={`${spaceGrotesk.className} max-w-xl font-medium max-md:text-lg text-xl text-gray-300`}
         >
           Velocidade, estabilidade e perfeição para trabalho remoto, jogos
           online e streaming de vídeos.
