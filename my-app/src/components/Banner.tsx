@@ -7,7 +7,7 @@ const spaceGrotesk = Space_Grotesk({
 
 export default function Banner() {
   return (
-    <section id="Home" className="pt-72 pb-48">
+    <section id="Home" className="h-[95vh] rounded-br-2xl">
       <div
         className="
           h-full container 

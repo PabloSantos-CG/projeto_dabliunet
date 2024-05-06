@@ -28,7 +28,7 @@ body {
 }  
 
 #Home {
-  background: url("/bg-project.webp") top no-repeat;
+  background: url("/bg-project.webp") top center no-repeat;
   background-size: cover;
 }  
 
