@@ -9,7 +9,7 @@ export default function Label() {
         </h2>
 
         <p className="max-w-md text-sm text-gray-300">
-          Na LinkVida, você personaliza seu plano conforme as necessidades de
+          Na DabliuNet, você personaliza seu plano conforme as necessidades de
           sua casa ou empresa. Explore agora mesmo clicando no botão abaixo.
         </p>
 

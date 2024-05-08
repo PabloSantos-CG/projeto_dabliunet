@@ -19,21 +19,21 @@ export default function About() {
         <div className="flex-1 flex flex-col justify-center max-md:items-center max-md:text-center">
           <h2 className="max-md:text-2xl text-3xl font-bold mb-6">Sobre Nós</h2>
           <p className="text-sm text-gray-600 max-w-md">
-            A <strong>VirtualLink</strong> é um provedor de internet com mais de
+            A <strong>DabliuNet</strong> é um provedor de internet com mais de
             17 anos de experiência no mercado, oferecendo serviços de alta
             qualidade aos nossos clientes.
             <br />
             <br />
-            Somos uma empresa certificada pela ANATEL, com contrato com a COELBA
+            <strong>Somos</strong> uma empresa certificada pela ANATEL, com contrato com a COELBA
             para utilização de postes e uma equipe de engenharia dedicada à
             segurança e capacitação dos nossos colaboradores.
             <br />
             <br />
-            Nossa rede de internet abrange mais de 250 km de fibra óptica,
+            <strong>Nossa</strong> rede de internet abrange mais de 250 km de fibra óptica,
             atendendo às regiões de Salvador, Camaçari e Lauro de Freitas.
             <br />
             <br />
-            Nosso compromisso é proporcionar a melhor experiência de conexão de
+            <strong>Nosso</strong> compromisso é proporcionar a melhor experiência de conexão de
             internet com ultravelocidade, garantindo a diversão da sua família e
             a sua produtividade no trabalho.
           </p>

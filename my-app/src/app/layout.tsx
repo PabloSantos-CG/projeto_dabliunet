@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "VirtualLink",
+  title: "DabliuNet",
   description:
-    "VirtualLink: internet rápida e confiável. Escolha entre nossos planos de banda larga para casa ou empresa. Com fibra óptica de alta qualidade, garantimos downloads, uploads e streaming sem atrasos.",
+    "DabliuNet: internet rápida e confiável. Escolha entre nossos planos de banda larga para casa ou empresa. Com fibra óptica de alta qualidade, garantimos downloads, uploads e streaming sem atrasos.",
 };
 
 export default function RootLayout({

@@ -48,7 +48,7 @@ export default function Header() {
       <div className="container max-md:flex-col flex justify-between m-auto px-4 py-5 relative">
         <div>
           <a href="/" className="text-xl font-bold text-white">
-            Virtual<span className="text-[#0CF25D]">Link</span>
+            Dabliu<span className="text-[#0CF25D]">Net</span>
           </a>
         </div>
 

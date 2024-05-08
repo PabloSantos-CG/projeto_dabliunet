@@ -10,7 +10,7 @@ export default function FirstFooter() {
       <div className="flex-1">
         <h2 className="mb-5">
           <a href="#Home" className="text-lg font-bold text-white">
-            Virtual<span className="text-[#0CF25D]">Link</span>
+            Dabliu<span className="text-[#0CF25D]">Net</span>
           </a>
         </h2>
 
