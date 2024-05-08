@@ -69,7 +69,7 @@ export default function Form() {
             placeholder="E-mail"
             className={`
               ${errors.email ? "border-red-500" : "focus:border-green-500"}
-              input w-full capitalize
+              input w-full
             `}
           />
           {errors.email && (
